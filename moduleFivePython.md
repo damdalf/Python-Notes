@@ -80,7 +80,8 @@ for v in values:
 ```
 
 * can also iterate through a String using the String as the sequence
-* range(begin, end) - creates a sequence or list from begin - end.
-    * range(beging, enter, step) - creates a sequence from begin - end while incrementing by the step value.
-    * range(begin, end, -1) - counts down from the starting value to the ending value by decrementing by 1 each time.
-        * for bottle in range(99, 0, -1)
+* range(begin, end) - creates a sequence or list from begin - end - 1.
+    * begin - your starting index
+    * end - the length of the array
+    * range(beging, enter, step) - creates a sequence from begin - end - 1 while incrementing by the step value.
+    * range(begin, end, -1) - counts down from the starting value to the ending + 1 value by decrementing by 1 each time.
