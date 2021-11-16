@@ -6,6 +6,8 @@
 * characters of Strings can be accessed using bracket notation, treating the String like an array of chars.
 * len() is extremely useful when doing this
     * avoid 'IndexError'
+* s[-1] is shorthand for s[len(s) - 1]
+    * Ex) s[-1 * len(s)] == s[0]
 * to take a substring, set your starting index and ending index inside of the brackets using a colon.
     * first = name[0:5]
 * name[0: ] - means all characters up to end of the String (abbreviates name[0 : len(name) - 1])
