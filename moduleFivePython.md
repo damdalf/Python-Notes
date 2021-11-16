@@ -44,6 +44,7 @@ ducks = ["Louie", "Huey", "Donald"]
 * String.split() - returns a list containing the individual words of the String.
 * In Python, you can chain these functions together:
     * if status.strip().lower().startswith("y"):
+* These functions that use 'dot notation. are called methods.
 * Format Strings
     * format specifiers - 'placeholders' in the output.
         * %s - placeholder for a String
