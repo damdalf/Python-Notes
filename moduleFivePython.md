@@ -33,14 +33,19 @@ ducks = ["Louie", "Huey", "Donald"]
 * String.upper() - converts all lowercase letters to uppercase letters, but the starting String is not modified.
     * remember, Strings are immutable so we must do something like this:
         * new_str = str.upper()
+* len(String) - returns the length of the String
+    * includes white spaces and symbols (any characters)
 * String.lower() - converts all uppercase letters to lowercase letters, but the starting String is not modified.
 * String.capitalize() - converts the first letter in the String to uppercase and the rest to lowercase, but the starting String is not modified.
-* String.strip() - returns a new String where all whitespaces are removed, except for those that appear directly before a String.
+* String.strip() - returns a new String where all whitespaces are removed from the beginning and end of the String, except for those that appear directly before a String.
     * the starting String is not modified.
     * tabs, newlines, spaces
 * String.find(char) - returns the index of the first ooccurence of the specified char.
     * if the char is not found, the method returns -1.
-* String.startswith() - returns True if the targeted String's first character is the specified one, and returns False otherwise.
+* String.startswith() - returns True if the targeted String's first character (or sequence of characters) is the specified character (or sequence of characters), and returns False otherwise.
+    * capitalization matters
+* String.endswith() - returns True if the targeted String's first character (or sequence of characters) is the specified character (or sequence of characters), and returns False otherwise.
+    * capitalization matters
 * String.split() - returns a list containing the individual words of the String.
 * In Python, you can chain these functions together:
     * if status.strip().lower().startswith("y"):
