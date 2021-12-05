@@ -66,6 +66,7 @@ print(result)
 # if there is only one specifier, the commas are optional.
 ```
 * formatting width
+    * %SPACE.PRECISION_format_specifier
     * %6.2f - prints the float with six spaces before it, and only two decimal places
     * %10d - prints the int with 10 spcaes before it.
     * to add spaces behind the item, place a '-' in front of the width specifier
