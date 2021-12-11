@@ -37,18 +37,18 @@ This is obvious information, but not having seen it for ages, I think it is some
 2. output
 3. math
 4. conditions execution
-5. repition
+5. repetition
 
 ***
 
 ### **Quick Ideas:**
 
 * A 'runtime error' is also known as an 'exception'.
-* Semantic errors - these errors occur when your code runs, but it does not complete the desired results / performance.
+* Semantic / logic errors - these errors occur when your code runs, but it does not complete the desired results / performance.
 * Tokens - the basic elements of a language: words, numbers, parentheses, commas, etc.
 * Structure - the way that tokens are arranged. 
 * The meaning of a computer program is ambigious and and literal. 
-> This is why coding is nice lol.
+> This is why coding is nice lol. 
 
 ***
 
